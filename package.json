@@ -1,0 +1,22 @@
+{
+  "name": "grokking_algorithms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "veetors",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@regru/eslint-config-regru": "^2.3.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-vue": "^5.1.0"
+  }
+}
