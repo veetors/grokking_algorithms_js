@@ -39,4 +39,4 @@ const selectionSort = ( arr ) => {
     return iter( arr );
 };
 
-selectionSort( [100, 0, 1, 3, -1, 0 ] ); // => [ -1, 0, 0, 1, 3, 100 ]
+export default selectionSort;
