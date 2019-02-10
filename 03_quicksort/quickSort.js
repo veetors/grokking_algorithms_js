@@ -9,5 +9,3 @@ export const quickSort = ( list ) => {
 
     return [ ...quickSort( less ), head, ...quickSort( greater ) ];
 };
-
-quickSort( [ 2, 0, 10, -1, 0, 8, 123, -978 ] ); // => [ -978, -1, 0, 0, 2, 8, 10, 123 ]

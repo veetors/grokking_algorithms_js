@@ -1,5 +1,3 @@
-const coll = [2, 0, 12, 33, -1];
-
 export const sum = ( list ) => {
     if ( list.length === 0 ) {
         return 0;
@@ -9,8 +7,6 @@ export const sum = ( list ) => {
 
     return head + sum( tail );
 };
-
-sum( coll ); // => 46
 
 export const count = ( list ) => {
     if ( list.length === 0 ) {
@@ -22,8 +18,6 @@ export const count = ( list ) => {
     return 1 + count( tail );
 };
 
-count( coll ); // => 5
-
 export const getGreatest = ( list ) => {
     if ( list.length === 1 ) {
         return list[0];
@@ -34,5 +28,3 @@ export const getGreatest = ( list ) => {
 
     return getGreatest( newList );
 };
-
-getGreatest( coll ); // => 33
