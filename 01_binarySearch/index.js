@@ -39,7 +39,4 @@ const binarySearch = ( items, item ) => {
     return null;
 };
 
-const list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // eslint-disable-line
-const item = 5;
-
-binarySearch( list, item ); // => 4
+export default binarySearch;
